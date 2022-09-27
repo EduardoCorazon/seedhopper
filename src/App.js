@@ -1,5 +1,5 @@
 import './App.css';
-import Homepage from './content/homepage/homepage';
+import Introduction from './content/Introduction/introduction';
 import Navbar from './content/navbar/navbar';
 
 function App() {
@@ -8,7 +8,11 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      <Homepage/>
+
+      <div className='Homepages'>
+        <Introduction/>
+
+      </div>
 
     </div>
   );
