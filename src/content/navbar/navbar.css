@@ -3,13 +3,12 @@
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 13px;
-    color: #fff;
   }
   .container {
     width: 100%;
    
     display: flex;
-    background-color: rgb(181, 140, 37);
+    background-color: #A5E6Ba;
     justify-content:space-between;
     flex-wrap: wrap;
   }
@@ -45,7 +44,7 @@
     }
     .nav a{
         padding: 10px;
-        border-top: 1px solid rgb(255, 255, 255,0.3);
+        border-top: 1px solid white;
         border-bottom: 1px ;
         text-align: center;
     }
