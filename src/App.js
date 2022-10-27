@@ -1,20 +1,18 @@
+import { Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Introduction from './content/Introduction/introduction';
 import Navbar from './content/navbar/navbar';
+import Main from './Main';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Navbar/>
-      </header>
-
-      <div className='Homepages'>
-        <Introduction/>
-
-      </div>
-
-    </div>
+    <>
+     <div className='App'>
+      <Navbar />
+      
+     </div>
+    </>
+    
   );
 }
 
