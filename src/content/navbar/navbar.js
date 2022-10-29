@@ -7,10 +7,10 @@ function Navbar() {
             <nav className="navbar">
                 <h4 className="logoname">SeedHopper</h4>
                 <ul>
-                <li><Link to='/introduction'>Introduction</Link></li>
+                <li><Link to='/Home'>Home</Link></li>
                 <li><a href="#">Upload</a></li>
-                <li><a href="#">Tree Mapper</a></li>
-                <li><a href='#'>Help</a></li>
+                <li><Link to='/Seeder'>Seeder</Link></li>
+                <li><Link to='/login'>Login</Link></li>
                 </ul>
             </nav>
     );

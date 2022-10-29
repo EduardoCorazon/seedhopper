@@ -17,7 +17,7 @@ function Introduction() {
     
         <div className='textintro'>
             <h1>Welcome to SeedHopper</h1>
-            <h4>A Web App that centralizes user data to automatically design the optimal seeding tournament.</h4>
+            <h4>The best App to optimize your tournaments</h4>
         </div>
         <div className='contbtncontainer'>
             <div className='acceptbtn' onClick={rmintro}>

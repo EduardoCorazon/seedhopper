@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Routes, Switch, Route } from 'react-router-dom';
+import Login from './pages/login/Login';
+import Seeder from './pages/Seeder/Seeder';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,9 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/Home' element={<App/>} />
+      <Route path='/Seeder' element={<Seeder/>} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
