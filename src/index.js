@@ -7,18 +7,23 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Switch, Route } from 'react-router-dom';
 import Login from './pages/login/Login';
 import Seeder from './pages/Seeder/Seeder';
+import { CookiesProvider } from 'react-cookie';
+import Register from './pages/login/register';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CookiesProvider>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/Home' element={<App/>} />
       <Route path='/Seeder' element={<Seeder/>} />
+      <Route path='/Register' element={<Register/>} />
     </Routes>
     </BrowserRouter>
+    </CookiesProvider>
   </React.StrictMode>
 );
 

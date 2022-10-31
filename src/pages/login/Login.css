@@ -5,6 +5,7 @@
   padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: relative;
   z-index: 1;
@@ -52,9 +53,7 @@
   color: #4CAF50;
   text-decoration: none;
 }
-.form .register-form {
-  display: none;
-}
+
 .container {
   position: relative;
   z-index: 1;
