@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/seedhopper/static/css/main.3f9862f7.css",
-    "main.js": "/seedhopper/static/js/main.3d72a53b.js",
+    "main.css": "/seedhopper/static/css/main.dccfea42.css",
+    "main.js": "/seedhopper/static/js/main.cb25e6e3.js",
     "static/js/787.153ab94c.chunk.js": "/seedhopper/static/js/787.153ab94c.chunk.js",
     "static/media/check.png": "/seedhopper/static/media/check.9cab30f65e15a7aa3372.png",
     "index.html": "/seedhopper/index.html",
-    "main.3f9862f7.css.map": "/seedhopper/static/css/main.3f9862f7.css.map",
-    "main.3d72a53b.js.map": "/seedhopper/static/js/main.3d72a53b.js.map",
+    "main.dccfea42.css.map": "/seedhopper/static/css/main.dccfea42.css.map",
+    "main.cb25e6e3.js.map": "/seedhopper/static/js/main.cb25e6e3.js.map",
     "787.153ab94c.chunk.js.map": "/seedhopper/static/js/787.153ab94c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9862f7.css",
-    "static/js/main.3d72a53b.js"
+    "static/css/main.dccfea42.css",
+    "static/js/main.cb25e6e3.js"
   ]
 }
