@@ -11,10 +11,11 @@ import { useState } from 'react';
 function Register() {
 
   //For cookies
+  //<h1>testing cookies</h1>{cookies.name && <p>{cookies.name}</p>}
   const [cookies, setCookie] = useCookies(["user"]);
   function handleCookie() {
     setCookie("name", name, { path: "/"});
-
+    alert("This functionality is still in development")
   }
 
 
@@ -23,10 +24,11 @@ function Register() {
 
   return (
     <>
+    <div className='logincontainer'>
     <header>
         <Navbar/>
     </header>
-    <h1>testing cookies</h1>{cookies.name && <p>{cookies.name}</p>}
+  
     <div class="login-page">
       <div class="form">
          <form class="register-form">
@@ -36,9 +38,11 @@ function Register() {
             <input type="password" placeholder="password" />
             <button onClick={handleCookie}>create</button>
             <p class="message">Already registered? <Link to='/login'>Sign In</Link></p>
+            <p class='indev'> This functionality is still in development</p>
           </form>
           
         </div>
+      </div>
       </div>
     </>
     

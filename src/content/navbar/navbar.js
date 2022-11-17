@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
+
             <nav className="navbar">
                 <h4 className="logoname">SeedHopper</h4>
                 <ul>
@@ -14,6 +15,7 @@ function Navbar() {
                 <li><Link to='/login'>Login</Link></li>
                 </ul>
             </nav>
+            
     );
   }
   

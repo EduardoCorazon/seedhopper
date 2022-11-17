@@ -3,6 +3,7 @@ import { Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Introduction from './content/Introduction/introduction';
 import Navbar from './content/navbar/navbar';
+import Home from './pages/Home/home';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <>
      <div className='App'>
       <Navbar />
+      <Home/>
       <Introduction/>
       
      </div>

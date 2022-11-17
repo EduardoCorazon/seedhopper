@@ -11,10 +11,12 @@ function Login() {
 
   return (
     <>
+    <div className='logincontainer'>
     <header>
         <Navbar/>
     </header>
     
+
     <div class="login-page">
       <div class="form">
           <form class="login-form">
@@ -24,6 +26,7 @@ function Login() {
             <p class="message">Not registered? <Link to='/Register'>Create an account</Link></p>
           </form>
         </div>
+      </div>
       </div>
     </>
     

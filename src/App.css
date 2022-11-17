@@ -10,10 +10,24 @@
   animation: fadein 2s;
 }
 
+body{
+  /*overflow: hidden; Hide scroll bar*/
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
 .App {
   text-align: center;
+  background-color: #244F43;
+  color:#FFB900;
+  /*
   background-image: linear-gradient(180deg, #5B2A86, #360568);
-  height: 200vmin;
+  */
+  /*height: 200vmin; */
 }
 
 

@@ -1,9 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.logincontainer{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #76b852; /*fallback for old browsers*/ 
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+  
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .login-page {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
+}
+
+.indev{
+  color: red;
+  padding: 5px;
 }
 
 .form {
@@ -86,12 +103,4 @@
 }
 .container .info span .fa {
   color: #EF3B3A;
-}
-body {
-  background: #76b852; /* fallback for old browsers */
-  background: rgb(141,194,111);
-  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
 }

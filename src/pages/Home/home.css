@@ -1,0 +1,40 @@
+.home{
+    width: 100%;
+
+    position: relative;
+    
+}
+.homeintro{
+    height: 100vmin;
+    padding-top: 35px;
+    
+    
+    color: white;
+    position: relative;
+}
+
+.startbtn{
+    background-color: purple;
+    color: white;
+    height: 7vmin;
+    width: 20vmin;
+}
+
+.wave{
+    
+    position: absolute;
+    bottom: 0;
+
+    height: 21vmin;
+    width: 100%;
+
+
+
+}
+
+.howitworks{
+    position: relative;
+    background-color: #FFB900;
+    color: white;
+    height: 100vmin;
+}
