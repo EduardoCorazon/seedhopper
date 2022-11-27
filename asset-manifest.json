@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/seedhopper/static/css/main.efad0016.css",
-    "main.js": "/seedhopper/static/js/main.68234dd8.js",
+    "main.css": "/seedhopper/static/css/main.234a3b0f.css",
+    "main.js": "/seedhopper/static/js/main.e8128706.js",
     "static/js/787.153ab94c.chunk.js": "/seedhopper/static/js/787.153ab94c.chunk.js",
+    "static/media/ExampleThumbnail.png": "/seedhopper/static/media/ExampleThumbnail.d41d76df4992d09146c3.png",
     "static/media/check.png": "/seedhopper/static/media/check.9cab30f65e15a7aa3372.png",
+    "static/media/Add.png": "/seedhopper/static/media/Add.81ff41933933bc8f7bc7.png",
     "index.html": "/seedhopper/index.html",
-    "main.efad0016.css.map": "/seedhopper/static/css/main.efad0016.css.map",
-    "main.68234dd8.js.map": "/seedhopper/static/js/main.68234dd8.js.map",
+    "main.234a3b0f.css.map": "/seedhopper/static/css/main.234a3b0f.css.map",
+    "main.e8128706.js.map": "/seedhopper/static/js/main.e8128706.js.map",
     "787.153ab94c.chunk.js.map": "/seedhopper/static/js/787.153ab94c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efad0016.css",
-    "static/js/main.68234dd8.js"
+    "static/css/main.234a3b0f.css",
+    "static/js/main.e8128706.js"
   ]
 }
