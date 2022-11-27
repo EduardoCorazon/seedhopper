@@ -3,6 +3,9 @@ import './Seeder.css';
 import Wave from 'react-wavify';
 
 function Seeder() {
+  function FunctionalityAlert(){
+    alert("Please Log in to use the Seeder")
+  }
   
   return (
     <>
@@ -12,7 +15,7 @@ function Seeder() {
       <div className='SeederIntro'>
         <div className='textintro'>
           <h3>Here you would upload your list of tournament participants</h3>
-          <button>Upload</button>
+          <button className='UploadBtn' onClick={FunctionalityAlert}>Upload</button>
         </div>
       </div>
 

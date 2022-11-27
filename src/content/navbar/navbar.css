@@ -10,6 +10,7 @@
 
 
 .navbar{
+  font-family: "Roboto", sans-serif;
 color:white;
 display:flex;
 justify-content: space-around;
@@ -42,6 +43,7 @@ font-size:12px;
 
 .navbar ul li a:hover{
   background:#ece4e4;
+  background: #FFB900;
   color:rgb(30, 23, 23) ;
   border-radius: 25px;
 }

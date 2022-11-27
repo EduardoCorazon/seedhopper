@@ -2,7 +2,7 @@
     text-align: center;
     height: 100%;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 15%;
 }
 
 body{
@@ -22,29 +22,57 @@ body{
 
     display: grid;
     grid-template-columns: 50% 50%;
-    
+    grid-gap: 20px;
+       
 }
 .TNail{
     text-align: center;
-    text-decoration: underline;
-    border-radius: 15px;
-    background-color: #FFB900;
-    margin: auto;
-    
+   
+    border-radius: 35px;
+    background-color: #3E0B82;
+    margin: auto;   
+}
+
+.TLabel {
+    text-decoration: none;
+    color: white;
+}
+.TLabel a{
+    text-decoration: none;
+    color: white;
 }
 
 .TNail:hover{
-    background-color: #E1C469;
+    background-color: #2e085f;
 }
 .TImage{
     padding-top: 5px;
     width: 50%;
 }
 
-.TWarning{
-    margin-top: 40px;
+.AddT{
+    border-radius: 35px;
+    padding: 10px;
+    justify-content: center;
+    border: dashed white;
+    color: white;
 }
 
-.TLogin{
-    text-decoration: underline #87C159;
+.AddContainer{
+    padding: 10%;
+    text-align: center;
+   
+    margin: auto; 
+}
+
+.AddT:hover{
+    background-color: #3E0B82;
+}
+
+.PlusBtn{
+    width: 20%;
+}
+
+.THigh{
+    color: #FFB900;
 }

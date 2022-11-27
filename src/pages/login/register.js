@@ -37,7 +37,7 @@ function Register() {
             <input type="text" placeholder="email address" />
             <input type="password" placeholder="password" />
             <button onClick={handleCookie}>create</button>
-            <p class="message">Already registered? <Link to='/login'>Sign In</Link></p>
+            <p class="message">Already registered? <Link to='/seedhopper/login'>Sign In</Link></p>
             <p class='indev'> This functionality is still in development</p>
           </form>
           

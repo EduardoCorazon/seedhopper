@@ -23,7 +23,7 @@ function Login() {
             <input type="text" placeholder="username"/>
             <input type="password" placeholder="password"/>
             <button>login</button>
-            <p class="message">Not registered? <Link to='/Register'>Create an account</Link></p>
+            <p class="message">Not registered? <Link to='/seedhopper/Register'>Create an account</Link></p>
           </form>
         </div>
       </div>
