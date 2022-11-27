@@ -1,0 +1,50 @@
+.TournamentsIntro{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+body{
+    background-color: #244F43;
+}
+
+.TContainer{
+    margin-top: 20px;
+}
+.TListContainer{
+    
+    margin: auto;
+    width: 70%;
+    
+    padding: 10px;
+    
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.TNail{
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 15px;
+    background-color: #FFB900;
+    margin: auto;
+    
+}
+
+.TNail:hover{
+    background-color: #E1C469;
+}
+.TImage{
+    padding-top: 5px;
+    width: 50%;
+}
+
+.TWarning{
+    margin-top: 40px;
+}
+
+.TLogin{
+    text-decoration: underline #87C159;
+}

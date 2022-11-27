@@ -39,9 +39,6 @@
 
     height: 21vmin;
     width: 100%;
-   
-
-
 
 }
 
@@ -50,6 +47,11 @@
     background-color: #FFB900;
     color: white;
     height: 100vmin;
+}
+
+.HowWorksText{
+    margin: auto;
+    width: 60%;
 }
 
 

@@ -17,12 +17,12 @@ root.render(
     <CookiesProvider>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App/>} />
-      <Route path='/login' element={<Login/>} />
-      <Route path='/Home' element={<App/>} />
-      <Route path='/Tournaments' element={<Tournamets/>} />
-      <Route path='/Seeder' element={<Seeder/>} />
-      <Route path='/Register' element={<Register/>} />
+      <Route path='/seedhopper' element={<App/>} />
+      <Route path='/seedhopper/login' element={<Login/>} />
+      <Route path='/seedhopper/Home' element={<App/>} />
+      <Route path='/seedhopper/Tournaments' element={<Tournamets/>} />
+      <Route path='/seedhopper/Seeder' element={<Seeder/>} />
+      <Route path='/seedhopper/Register' element={<Register/>} />
     </Routes>
     </BrowserRouter>
     </CookiesProvider>

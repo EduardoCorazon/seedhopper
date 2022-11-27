@@ -4,7 +4,6 @@ import './introduction.css';
 import Wave from 'react-wavify';
 
 function Home() {
-  let show = 'introcontainer';
     const [isActive, setIsActive] = useState(false);
 
   const rmintro = () => {
@@ -52,7 +51,18 @@ function Home() {
 
       <div className='howitworks'>
         <h2>How it works</h2>
-        <p>This is cool </p>
+        <p className='HowWorksText'> 
+        Seed Hopper is a tournament seeding mechanism in which stronger
+players are initially pitted against weaker players to create a fun
+tournament experience. The players that win more games and have better
+statistics are marked as stronger players, while the players that lose
+more games are marked as weaker players. In order to do this, we're
+merging data from multiple databases to create the most accurate
+seeding experience. Enjoy Seed Hopper and let the tournament begin!
+
+
+
+        </p>
       </div>
 
         

@@ -1,0 +1,140 @@
+.SeederIntro{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+}
+.SeederContainer{
+    border: solid #3E0B82;
+    width: 100%;
+    background-color: #3E0B82;
+    
+}
+
+.SeederGuide{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+}
+
+
+.SeederWave{
+    position: relative;
+    bottom: 0;
+
+    height: 21vmin;
+    width: 100%;
+
+}
+
+
+
+.SeederItem{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+
+.Top{
+    text-decoration: underline;
+}
+.PlayerTop{
+    padding: 10px;
+    
+}
+
+
+.SeederFooter{
+    margin-top: 40px;
+    padding: 10px;
+    color: #d1d5db;
+    height: 50vmin;/*Determine*/
+}
+
+
+
+
+
+
+
+
+.SeederTree ul {
+    color: #d1d5db;
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    /* Reset */
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0.5rem 0rem 0.5rem;
+}
+
+.SeederTree ul ul::before {
+    border-right: 1px solid #d1d5db;
+    content: '';
+
+    /* Position */
+    position: absolute;
+    top: 0;
+    right: 50%;
+
+    /* Size */
+    height: 1rem;
+    width: 50%;
+}
+
+.SeederTree li {
+    
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    position: relative;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.SeederTree li::before {
+    border-right: 1px solid #d1d5db;
+    border-top: 1px solid #d1d5db;
+    content: '';
+
+    /* Position */
+    position: absolute;
+    top: 0;
+    right: 50%;
+
+    /* Size */
+    height: 1rem;
+    width: 50%;
+}
+
+.SeederTree li::after {
+    border-top: 1px solid #d1d5db;
+    content: '';
+
+    /* Position */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /* Size */
+    width: 50%;
+}
+
+.SeederTree li:first-child::before,
+.SeederTree li:last-child::after {
+    /* Remove the top of border from the first and last items */
+    border-top: none;
+}
+
+/* Add a root item if you want */
+li.SeederTree__root::before {
+    border-right: none;
+}
