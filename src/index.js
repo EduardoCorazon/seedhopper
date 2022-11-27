@@ -9,6 +9,7 @@ import Login from './pages/login/Login';
 import Seeder from './pages/Seeder/Seeder';
 import { CookiesProvider } from 'react-cookie';
 import Register from './pages/login/register';
+import Tournamets from './pages/Tournaments/Tournaments';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
       <Route path='/' element={<App/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/Home' element={<App/>} />
+      <Route path='/Tournaments' element={<Tournamets/>} />
       <Route path='/Seeder' element={<Seeder/>} />
       <Route path='/Register' element={<Register/>} />
     </Routes>
