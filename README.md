@@ -1,4 +1,4 @@
-                                                                                      '''                                                                                                                 
+```
                                                                        dddddddd                                                                                                                        
    SSSSSSSSSSSSSSS                                                     d::::::dHHHHHHHHH     HHHHHHHHH                                                                                                 
  SS:::::::::::::::S                                                    d::::::dH:::::::H     H:::::::H                                                                                                 
@@ -22,10 +22,9 @@ S:::::::::::::::SS   ee:::::::::::::e    ee:::::::::::::e    d:::::::::ddd::::dH
                                                                                                                        p:::::::p           p:::::::p                                                   
                                                                                                                        p:::::::p           p:::::::p                                                   
                                                                                                                        ppppppppp           ppppppppp                                                   
+                                                                                                                                                                                                  
+```
 
-
-
-                                                                                      '''                                                                                                  
 # Welcome to SeedHopper
 This is a full stack web application geared towards Tournament Organizers.
 We use both Challonge and StartGG to properly seed tournaments,
