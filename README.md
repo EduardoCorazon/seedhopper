@@ -20,7 +20,10 @@ and boom you should be good to go!
 This product is still in development, as of right now it's a prototype with real functionality, but we hope to expand upon more features & eventually host this for everyone to freely use.
 
 # About Us
-Front-end developer / Security & Integration: Eduardo Corazon 
-Back-end developer (Challonge) / Backend Organizer: Ryan Barnes
-Back-end developer (StartGG): Leo Yerena
-Marketing & Presentation: Paul Taylor
+**Front-end developer / Security & Integration: Eduardo Corazon**
+
+**Back-end developer (Challonge) / Backend Organizer: Ryan Barnes**
+
+**Back-end developer (StartGG): Leo Yerena**
+
+**Marketing & Presentation: Paul Taylor**
