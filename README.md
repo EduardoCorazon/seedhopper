@@ -1,4 +1,4 @@
-![alt text](https://github.com/EduardoCorazon/seedhopper/seedhopperimg.png?raw=true)
+![alt text](https://github.com/EduardoCorazon/seedhopper/blob/master/seedhopperimg.png?raw=true)
 
 # Welcome to SeedHopper
 This is a full stack web application geared towards Tournament Organizers.
