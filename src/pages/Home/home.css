@@ -46,6 +46,7 @@
     position: relative;
     background-color: #FFB900;
     color: white;
+    color: black; /*improve readability*/
     height: 100vmin;
 }
 

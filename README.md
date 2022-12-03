@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+                                                                                                                                                                                                       
+                                                                       dddddddd                                                                                                                        
+   SSSSSSSSSSSSSSS                                                     d::::::dHHHHHHHHH     HHHHHHHHH                                                                                                 
+ SS:::::::::::::::S                                                    d::::::dH:::::::H     H:::::::H                                                                                                 
+S:::::SSSSSS::::::S                                                    d::::::dH:::::::H     H:::::::H                                                                                                 
+S:::::S     SSSSSSS                                                    d:::::d HH::::::H     H::::::HH                                                                                                 
+S:::::S                eeeeeeeeeeee        eeeeeeeeeeee        ddddddddd:::::d   H:::::H     H:::::H     ooooooooooo   ppppp   ppppppppp   ppppp   ppppppppp       eeeeeeeeeeee    rrrrr   rrrrrrrrr   
+S:::::S              ee::::::::::::ee    ee::::::::::::ee    dd::::::::::::::d   H:::::H     H:::::H   oo:::::::::::oo p::::ppp:::::::::p  p::::ppp:::::::::p    ee::::::::::::ee  r::::rrr:::::::::r  
+ S::::SSSS          e::::::eeeee:::::ee e::::::eeeee:::::ee d::::::::::::::::d   H::::::HHHHH::::::H  o:::::::::::::::op:::::::::::::::::p p:::::::::::::::::p  e::::::eeeee:::::eer:::::::::::::::::r 
+  SS::::::SSSSS    e::::::e     e:::::ee::::::e     e:::::ed:::::::ddddd:::::d   H:::::::::::::::::H  o:::::ooooo:::::opp::::::ppppp::::::ppp::::::ppppp::::::pe::::::e     e:::::err::::::rrrrr::::::r
+    SSS::::::::SS  e:::::::eeeee::::::ee:::::::eeeee::::::ed::::::d    d:::::d   H:::::::::::::::::H  o::::o     o::::o p:::::p     p:::::p p:::::p     p:::::pe:::::::eeeee::::::e r:::::r     r:::::r
+       SSSSSS::::S e:::::::::::::::::e e:::::::::::::::::e d:::::d     d:::::d   H::::::HHHHH::::::H  o::::o     o::::o p:::::p     p:::::p p:::::p     p:::::pe:::::::::::::::::e  r:::::r     rrrrrrr
+            S:::::Se::::::eeeeeeeeeee  e::::::eeeeeeeeeee  d:::::d     d:::::d   H:::::H     H:::::H  o::::o     o::::o p:::::p     p:::::p p:::::p     p:::::pe::::::eeeeeeeeeee   r:::::r            
+            S:::::Se:::::::e           e:::::::e           d:::::d     d:::::d   H:::::H     H:::::H  o::::o     o::::o p:::::p    p::::::p p:::::p    p::::::pe:::::::e            r:::::r            
+SSSSSSS     S:::::Se::::::::e          e::::::::e          d::::::ddddd::::::ddHH::::::H     H::::::HHo:::::ooooo:::::o p:::::ppppp:::::::p p:::::ppppp:::::::pe::::::::e           r:::::r            
+S::::::SSSSSS:::::S e::::::::eeeeeeee   e::::::::eeeeeeee   d:::::::::::::::::dH:::::::H     H:::::::Ho:::::::::::::::o p::::::::::::::::p  p::::::::::::::::p  e::::::::eeeeeeee   r:::::r            
+S:::::::::::::::SS   ee:::::::::::::e    ee:::::::::::::e    d:::::::::ddd::::dH:::::::H     H:::::::H oo:::::::::::oo  p::::::::::::::pp   p::::::::::::::pp    ee:::::::::::::e   r:::::r            
+ SSSSSSSSSSSSSSS       eeeeeeeeeeeeee      eeeeeeeeeeeeee     ddddddddd   dddddHHHHHHHHH     HHHHHHHHH   ooooooooooo    p::::::pppppppp     p::::::pppppppp        eeeeeeeeeeeeee   rrrrrrr            
+                                                                                                                        p:::::p             p:::::p                                                    
+                                                                                                                        p:::::p             p:::::p                                                    
+                                                                                                                       p:::::::p           p:::::::p                                                   
+                                                                                                                       p:::::::p           p:::::::p                                                   
+                                                                                                                       p:::::::p           p:::::::p                                                   
+                                                                                                                       ppppppppp           ppppppppp                                                   
+                                                                                                                                                                                                  
+# Welcome to SeedHopper
+This is a full stack web application geared towards Tournament Organizers.
+We use both Challonge and StartGG to properly seed tournaments,
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+our backend is located here: 
+https://github.com/barnesrd/seedhopper-backend
 
-## Available Scripts
+And its documentation:
+https://app.gitbook.com/o/qxStiRaliNXMMILyaaBq/home
 
-In the project directory, you can run:
+# How to deploy
+deploy both the front end: npm run start
+and back end: node index.js
 
-### `npm start`
+and boom you should be good to go!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Important Notice
+This product is still in development, as of right now it's a prototype with real functionality, but we hope to expand upon more features & eventually host this for everyone to freely use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# About Us
+Front-end developer / Security & Integration: Eduardo Corazon 
+Back-end developer (Challonge) / Backend Organizer: Ryan Barnes
+Back-end developer (StartGG): Leo Yerena
+Marketing & Presentation: Paul Taylor
