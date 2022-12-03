@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/seedhopper/static/css/main.234a3b0f.css",
-    "main.js": "/seedhopper/static/js/main.be107fdb.js",
+    "main.js": "/seedhopper/static/js/main.1b37205a.js",
     "static/js/787.153ab94c.chunk.js": "/seedhopper/static/js/787.153ab94c.chunk.js",
     "static/media/ExampleThumbnail.png": "/seedhopper/static/media/ExampleThumbnail.d41d76df4992d09146c3.png",
     "static/media/check.png": "/seedhopper/static/media/check.9cab30f65e15a7aa3372.png",
     "static/media/Add.png": "/seedhopper/static/media/Add.81ff41933933bc8f7bc7.png",
     "index.html": "/seedhopper/index.html",
     "main.234a3b0f.css.map": "/seedhopper/static/css/main.234a3b0f.css.map",
-    "main.be107fdb.js.map": "/seedhopper/static/js/main.be107fdb.js.map",
+    "main.1b37205a.js.map": "/seedhopper/static/js/main.1b37205a.js.map",
     "787.153ab94c.chunk.js.map": "/seedhopper/static/js/787.153ab94c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.234a3b0f.css",
-    "static/js/main.be107fdb.js"
+    "static/js/main.1b37205a.js"
   ]
 }
