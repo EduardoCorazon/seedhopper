@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom';
 
 
 
-
-
 function Login() {
 
+  
 
   return (
     <>
@@ -15,7 +14,8 @@ function Login() {
     <header>
         <Navbar/>
     </header>
-    
+
+   
 
     <div class="login-page">
       <div class="form">

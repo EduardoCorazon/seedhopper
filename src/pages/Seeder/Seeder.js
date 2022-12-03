@@ -1,12 +1,50 @@
 import Navbar from '../../content/navbar/navbar';
 import './Seeder.css';
 import Wave from 'react-wavify';
+import axios from 'axios';
+import { useState } from 'react';
 
 function Seeder() {
-  function FunctionalityAlert(){
-    alert("Please Log in to use the Seeder")
-  }
+  //
+  const testme=["MercenaryHarpy6","PaulArmStrong76","TheOneAchillies","PossiblePuma89","FlapJack76","BillNyeRussianSpy","TheMaker47"];
+
+  //For API-Key input
+  const [ApiKey, setApiKey] = useState('');
+
+  const handleInput = () =>{
+    //send the api key
+    axios.post('http://localhost:3001/challonge', {
+      "api-key": ApiKey
+    })
+    .then((response) => {
+      alert("POSTworks")
+    }, (error) => {
+      alert("POSTfailure")
+    })
+    //get the array of tournament IDs (processed in order)
+    axios.get('http://localhost:3001/challonge',{
+      "tournament_ids": []
+    })
+    .then((response) => {
+      alert("GETworks")
+    }, (error) => {
+      alert("GETfailure")
+    })
+
+    //tell the user it's ready
+    alert("The tournament has been seeded");
+  };
+
   
+
+  /*
+  .then((response) => {
+    alert("works")
+  }, (error) => {
+    alert("failure")
+  });
+*/
+
   return (
     <>
     <div>
@@ -15,7 +53,8 @@ function Seeder() {
       <div className='SeederIntro'>
         <div className='textintro'>
           <h3>Here you would upload your list of tournament participants</h3>
-          <button className='UploadBtn' onClick={FunctionalityAlert}>Upload</button>
+          <button className='UploadBtn' onClick={handleInput}>Upload</button>
+          <input onChange={e=>setApiKey(e.target.value)} placeholder='Input you api key here...' type="text" name/>
         </div>
       </div>
 
@@ -34,7 +73,7 @@ function Seeder() {
         <div className='SeederTree'>
           <ul>
             <li className="SeederTree__root">
-              <div className='SeederItem'><h4>MercenaryHarpy6</h4></div>
+              <div className='SeederItem'><h4>{testme[0]}</h4></div>
               <ul>
                 <li>
                 <div className='SeederItem'><h4>PaulArmStrong76</h4></div>

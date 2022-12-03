@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter, Routes, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Switch, Route, HashRouter } from 'react-router-dom';
 import Login from './pages/login/Login';
 import Seeder from './pages/Seeder/Seeder';
 import { CookiesProvider } from 'react-cookie';
