@@ -5,50 +5,43 @@ import axios from 'axios';
 import { useState } from 'react';
 
 function Seeder() {
-  //
-  const testme=["MercenaryHarpy6","PaulArmStrong76","TheOneAchillies","PossiblePuma89","FlapJack76","BillNyeRussianSpy","TheMaker47"];
+  //users for tournament 3474131
+  const usernames=["Jolteo","GhostCoffee45","UKJoey","Scruffy90","ROCKMANX2","xwarrior1209","Golyhawhaw"];
+  const [isActive, setIsActive] = useState(false);
+
+  
+    
 
   //For API-Key input
   const [ApiKey, setApiKey] = useState('');
+  
 
   const handleInput = () =>{
+    console.log("Api Key: "+ApiKey)
     //send the api key
-    axios.post('http://localhost:3001/challonge', {
-      "api-key": ApiKey
+    axios.post('http://localhost:3001/challonge/players', {
+      "api_key": ApiKey,
+      "tournament_id":3474131,
     })
     .then((response) => {
-      alert("POSTworks")
+      console.log(response.data)
+      console.log("Type of response: "+ typeof response.data); // string      
+      alert("Your response has been Submitted")
+        setIsActive(current => !current);
     }, (error) => {
       alert("POSTfailure")
     })
-    //get the array of tournament IDs (processed in order)
-    axios.get('http://localhost:3001/challonge',{
-      "tournament_ids": []
-    })
-    .then((response) => {
-      alert("GETworks")
-    }, (error) => {
-      alert("GETfailure")
-    })
 
-    //tell the user it's ready
-    alert("The tournament has been seeded");
+
   };
 
-  
 
-  /*
-  .then((response) => {
-    alert("works")
-  }, (error) => {
-    alert("failure")
-  });
-*/
 
   return (
     <>
     <div>
       <Navbar/>
+      
       
       <div className='SeederIntro'>
         <div className='textintro'>
@@ -70,22 +63,22 @@ function Seeder() {
         </div>
 
         
-        <div className='SeederTree'>
+        <div className='SeederTree' style={{display: isActive ? '': 'none'}}>
           <ul>
             <li className="SeederTree__root">
-              <div className='SeederItem'><h4>{testme[0]}</h4></div>
+              <div className='SeederItem'><h4>{usernames[0]}</h4></div>
               <ul>
                 <li>
-                <div className='SeederItem'><h4>PaulArmStrong76</h4></div>
+                <div className='SeederItem'><h4>{usernames[1]}</h4></div>
                     <ul>
-                        <li><div className='SeederItem'><h4>PossiblePuma89</h4></div></li>
-                        <li><div className='SeederItem'><h4>FlapJack76</h4></div></li>
+                        <li><div className='SeederItem'><h4>{usernames[3]}</h4></div></li>
+                        <li><div className='SeederItem'><h4>{usernames[4]}</h4></div></li>
                     </ul>
                   </li>
-                <li><div className='SeederItem'><h4>TheOneAchillies</h4></div>
+                <li><div className='SeederItem'><h4>{usernames[2]}</h4></div>
                   <ul>
-                        <li><div className='SeederItem'><h4>BillNyeRussianSpy</h4></div></li>
-                        <li><div className='SeederItem'><h4>TheMaker47</h4></div></li>
+                        <li><div className='SeederItem'><h4>{usernames[5]}</h4></div></li>
+                        <li><div className='SeederItem'><h4>{usernames[6]}</h4></div></li>
                     </ul>
                 </li>
               </ul>
@@ -93,11 +86,13 @@ function Seeder() {
           </ul>
         </div>
         <div className='SeederFooter'>
+          <div style={{display: isActive ? '': 'none'}}>
           <h2 className='Top'>Top Players</h2>
           <div className='PlayerTop'>
-            <ul>1: MercenaryHarpy6 - Score 7804</ul>
-            <ul>2: PaulArmStrong76 - Score 6700</ul>
-            <ul>3: TheOneAchillies - Score 6589</ul>
+            <ul>1: {usernames[0]} - id 55404641</ul>
+            <ul>2: {usernames[1]} - id 55404701</ul>
+            <ul>3: {usernames[2]} - id 55404795</ul>
+          </div>
           </div>
         </div>
 
